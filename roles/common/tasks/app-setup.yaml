@@ -11,7 +11,7 @@
     state: directory
 - name: "downloading {{component}} code to the created directory"
   ansible.builtin.get_url: 
-    url: https://roboshop-builds.s3.amazonaws.com/catalogue.zip
+    url: https://roboshop-builds.s3.amazonaws.com/{{component}}.zip
     dest: /tmp
 - name: "extract {{component}} application" 
   ansible.builtin.unarchive:
