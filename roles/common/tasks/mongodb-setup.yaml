@@ -23,5 +23,5 @@
   ignore_errors: true
 - name: loading user data
   ansible.builtin.command: "mongo --host mongodb.sowjanyaaws.xyz < /app/schema/{{component}}.js"
-  when: product_count.stdout == "0" and component == "user"
+  when: users_count.stdout == "0" and component == "users"
   ignore_errors: true
