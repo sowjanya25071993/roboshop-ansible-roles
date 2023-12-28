@@ -12,7 +12,7 @@
   when: component == "catalogue"
 - name: get the users entries count
   ansible.builtin.command: mongo --host mongodb.sowjanyaaws.xyz --quiet --eval 'db = db.getSiblingDB("users"); db.users.count()'
-  register: product_count
+  register: users_count
   when: component == "user"
 #- name: print the product count
   #ansible.builtin.debug:
