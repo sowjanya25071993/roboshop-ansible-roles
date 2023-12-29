@@ -6,6 +6,10 @@
   ansible.builtin.file:
     path: /usr/share/nginx/html/*
     state: directory
+- name: creating new content
+  ansible.builtin.file:
+   path: /usr/share/nginx/html
+   state: directory
 - name: download web content
   ansible.builtin.get_url:
     url: https://roboshop-builds.s3.amazonaws.com/web.zip
