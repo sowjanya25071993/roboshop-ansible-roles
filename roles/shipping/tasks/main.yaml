@@ -10,4 +10,9 @@
   ansible.builtin.import_role:
    name: common
    tasks_form: mysql-setup
+- name: syatem start
+  ansible.builtin.import_role:
+   name: common
+   tasks_from: systemd
+
   
