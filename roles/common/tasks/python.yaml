@@ -2,8 +2,8 @@
   ansible.builtin.package:
    name: "{{item}}"
    state: present
-   loop:
-   - pyth on36 
+  loop:
+   - python36 
    - gcc 
    - python3-devel
 - name: download dependancies
