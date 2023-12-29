@@ -1,1 +1,3 @@
 MONGODB_HOST: mongodb.sowjanyaaws.xyz
+CATALOGUE_HOST: catalogue.sowjanyaaws.xyz
+CART_HOST: cart.sowjanyaaws.xyz
