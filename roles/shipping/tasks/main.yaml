@@ -1,15 +1,15 @@
 - name: app setup
   ansible.builtin.import_role:
    name: common
-   tasks_form: app-setup
+   tasks_from: app-setup
 - name: java setup
   ansible.builtin.import_role:
    name: common
-   tasks_form: java
+   tasks_from: java
 - name: mysql setup
   ansible.builtin.import_role:
    name: common
-   tasks_form: mysql-setup
+   tasks_from: mysql-setup
 - name: syatem start
   ansible.builtin.import_role:
    name: common
