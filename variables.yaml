@@ -6,3 +6,4 @@ REDIS_HOST: redis.sowjanyaaws.xyz
 WEB_HOST: web.sowjanyaaws.xyz
 MYSQL_HOST: mysql.sowjanyaaws.xyz
 SHIPPING_HOST: shipping.sowjanyaaws.xyz
+PAYMENT_HOST: payment.sowjanyaaws.xyz
