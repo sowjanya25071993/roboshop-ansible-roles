@@ -7,3 +7,5 @@ WEB_HOST: web.sowjanyaaws.xyz
 MYSQL_HOST: mysql.sowjanyaaws.xyz
 SHIPPING_HOST: shipping.sowjanyaaws.xyz
 PAYMENT_HOST: payment.sowjanyaaws.xyz
+RABBITMQ_HOST: rabbitmq.sowjanyaaws.xyz
+DISPATCH_HOST: dispatch.sowjanyaaws.xyz
