@@ -1,0 +1,13 @@
+- name: app setup
+  ansible.builtin.import_role:
+   name: common
+   tasks_form: app-setup
+- name: java setup
+  ansible.builtin.import_role:
+   name: common
+   tasks_form: java
+- name: mysql setup
+  ansible.builtin.import_role:
+   name: common
+   tasks_form: mysql-setup
+  
